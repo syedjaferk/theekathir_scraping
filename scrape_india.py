@@ -26,7 +26,7 @@ def collect_page(url, path):
         pass
 
 for category in categories:
-    page = 227
+    page = 990
     content = "content"
     url = f"https://theekkathir.in/News/GetNewsListByCategory?CategoryName={category}&SubCategoryName=&PageNo="
     while page < 1015:
